@@ -5,7 +5,7 @@ const TestimonialsCard = ({
     name = "Anonymous",
 }) => {
     return (
-        <div className="relative">
+        <div className="relative ">
 
             {/* Shadow */}
             <div className="absolute top-2 left-2 w-full h-full bg-primary rounded-md"></div>

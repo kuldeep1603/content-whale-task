@@ -85,6 +85,12 @@
   transform: scale(1.2);
 }
 
+.Team .testimonial-img {
+  top: -50px;
+  left: 34%;
+  position: absolute;
+}
+
 @media screen and (max-width: 796px) {
   .cta-section {
     background-image: none !important;
@@ -96,6 +102,9 @@
   }
   .mobile-device-cta {
     display: block !important;
+  }
+  .Team .testimonial-img {
+    left: 0%;
   }
 }
 
@@ -121,4 +130,19 @@
 }
 .Team .swiper-button-disabled {
   opacity: 1 !important;
+}
+.testimonials .swiper-slide-next .bg-text-primary {
+  background-color: #ceb0f0 !important;
+}
+
+.testimonials .swiper-slide-next .text-primary {
+  color: #000 !important;
+}
+
+/* Smooth Transition Effect */
+.testimonials .swiper-slide .bg-text-primary,
+.testimonials .swiper-slide .text-primary,
+.testimonials .swiper-slide .border-t-2,
+.testimonials .swiper-slide .bg-primary {
+  transition: all 0.4s ease-in-out;
 }

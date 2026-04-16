@@ -4,7 +4,7 @@ import Icon from "../components/common/Icon";
 
 const Hero = () => {
     return (
-        <section className="relative bg-primary flex flex-col items-center text-center overflow-hidden">
+        <section className="relative py-10 md:py-0 bg-primary flex flex-col items-center text-center overflow-hidden">
             {/* Hero Content */}
             <Container className="my-10 z-10">
                 <h1 className="text-text-primary font-zen text-2xl sm:text-3xl md:text-5xl leading-snug">
@@ -47,6 +47,15 @@ const Hero = () => {
                     classname="absolute top-10 right-40 w-20 h-20 sm:w-24 md:w-32 lg:w-40 opacity-90 scale-x-[-1]"
                 />
             </div>
+            <Icon
+                title="cloud"
+                classname="absolute md:hidden block top-0 left-[-10px]  w-24 h-24"
+            />
+
+            <Icon
+                title="cloud"
+                classname="absolute md:hidden block top-[80%] right-0  w-24 h-24 scale-x-[-1]"
+            />
         </section>
     );
 };
