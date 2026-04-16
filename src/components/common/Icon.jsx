@@ -15,7 +15,7 @@ const Icon = ({
             style={style}
             onClick={onClick}
         >
-            <use xlinkHref={`public/assets/sprite.svg#icon-${title}`} />
+            <use xlinkHref={`/assets/sprite.svg#icon-${title}`} />
         </svg>
     );
 };

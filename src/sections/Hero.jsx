@@ -5,7 +5,6 @@ import Icon from "../components/common/Icon";
 const Hero = () => {
     return (
         <section className="relative bg-primary flex flex-col items-center text-center overflow-hidden">
-
             {/* Hero Content */}
             <Container className="my-10 z-10">
                 <h1 className="text-text-primary font-zen text-2xl sm:text-3xl md:text-5xl leading-snug">
@@ -32,23 +31,20 @@ const Hero = () => {
             </Container>
 
             {/* Hero GIF */}
-            <div className="relative hero-image-section w-full lg:block hidden">
-                <img
-                    src="/assets/images/hero.gif"
-                    alt="Hero Illustration"
-                    className="w-full object-cover"
-                />
+            <div className="relative hero-image-section w-full hidden lg:block overflow-hidden self-stretch mt-auto">                <img
+                src="/assets/images/hero.gif"
+                alt="Hero Illustration"
+                className="w-full h-[420px] object-cover object-bottom block"
+            />
 
-                {/* Left Cloud */}
                 <Icon
                     title="cloud"
-                    classname="absolute hero-cloud-left left-40 w-20 h-20 sm:w-24 md:w-32 lg:w-40 opacity-90"
+                    classname="absolute top-10 left-40 w-20 h-20 sm:w-24 md:w-32 lg:w-40 opacity-90"
                 />
 
-                {/* Right Cloud */}
                 <Icon
                     title="cloud"
-                    classname="absolute hero-cloud-right right-40 w-20 h-20 sm:w-24 md:w-32 lg:w-40 opacity-90 scale-x-[-1]"
+                    classname="absolute top-10 right-40 w-20 h-20 sm:w-24 md:w-32 lg:w-40 opacity-90 scale-x-[-1]"
                 />
             </div>
         </section>

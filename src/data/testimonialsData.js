@@ -14,4 +14,9 @@ export const testimonialsData = [
         text: "I never thought I could come out of that phase so quickly. The guidance and support I received made a huge difference.",
         name: "Sneha Patel",
     },
+    {
+        id: 4,
+        text: "I never thought I could come out of that phase so quickly. The guidance and support I received made a huge difference.",
+        name: "Sneha Patel",
+    },
 ];

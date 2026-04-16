@@ -95,7 +95,7 @@ const Benefits = () => {
                                             growth through our collective
                                         </p>
                                         <Button className="bg-secondary d-block px-3 py-2 text-[14px]">Book a Session</Button>
-                                        <img src="/public/assets/images/benefits/swing colored 1.png" className="w-full h-auto mt-20" alt="" />
+                                        <img src="/assets/images/benefits/swing colored 1.png" className="w-full h-auto mt-20" alt="" />
                                     </div>
                                 </SwiperSlide>
                             )

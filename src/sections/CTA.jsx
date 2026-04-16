@@ -10,7 +10,7 @@ const CTA = () => {
                 </h1>
                 <p className="font-zen opacity-80 text-text-primary my-4 text-base md:text-base">Lacinia vel faucibus nullam purus facilisis consectetur euismod.</p>
                 <Button className="bg-secondary">Book a Session</Button>
-                <img src="/public/assets/images/mobile-device-cta.png" className="mobile-device-cta" alt="" />
+                <img src="/assets/images/mobile-device-cta.png" className="mobile-device-cta" alt="" />
             </div>
         </Container>
     );

@@ -27,7 +27,7 @@ const Commitment = () => {
                     width="40px"
                 />
             </div>
-            <img src="/public/assets/images/Commitment/bg.png" alt="" className="hidden lg:block  w-full" />
+            <img src="/assets/images/Commitment/bg.png" alt="" className="hidden lg:block  w-full" />
 
             <div className="block lg:hidden">
                 <Swiper

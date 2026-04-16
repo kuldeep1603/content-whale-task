@@ -18,22 +18,22 @@ const Services = () => {
             <div className="hidden md:block">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
                     <div className="">
-                        <img src="/public/assets/images/services/indiviual.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/indiviual.png" className="w-full h-auto" alt="" />
                     </div>
                     <div className="">
-                        <img src="/public/assets/images/services/grp.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/grp.png" className="w-full h-auto" alt="" />
                     </div>
                     <div className="">
-                        <img src="/public/assets/images/services/couples.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/couples.png" className="w-full h-auto" alt="" />
                     </div>
                     <div className="">
-                        <img src="/public/assets/images/services/areas.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/areas.png" className="w-full h-auto" alt="" />
                     </div>
                     <div className="">
-                        <img src="/public/assets/images/services/parents.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/parents.png" className="w-full h-auto" alt="" />
                     </div>
                     <div className="">
-                        <img src="/public/assets/images/services/workshops.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/workshops.png" className="w-full h-auto" alt="" />
                     </div>
                 </div>
             </div>
@@ -65,22 +65,22 @@ const Services = () => {
                     }}
                     className="mySwiper">
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/indiviual.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/indiviual.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/grp.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/grp.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/couples.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/couples.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/areas.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/areas.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/parents.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/parents.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/public/assets/images/services/workshops.png" className="w-full h-auto" alt="" />
+                        <img src="/assets/images/services/workshops.png" className="w-full h-auto" alt="" />
                     </SwiperSlide>
                 </Swiper>
             </div>
