@@ -1,0 +1,100 @@
+.hero-image-section {
+  bottom: 150px;
+}
+.hero-cloud-left {
+  bottom: 350px;
+}
+.hero-cloud-right {
+  bottom: 220px;
+}
+.cta-section {
+  background-image: url("./assets/images/cta-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mobile-device-cta {
+  display: none;
+}
+
+.team-card-image {
+  height: 22rem;
+}
+
+.benefits-slider {
+  height: 420px !important;
+}
+
+.benefits .swiper-pagination-bullet-active {
+  background-color: #ceb0f0 !important;
+}
+.benefits .swiper-pagination {
+  right: 20px !important;
+  left: -43% !important;
+  top: 250px !important;
+}
+.benefits .swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  width: 11px !important;
+  height: 11px !important;
+  opacity: 1;
+}
+
+.benefits .swiper-pagination-bullet-active {
+  background-color: #ceb0f0 !important;
+  transform: scale(1.2);
+}
+
+.benefits-mobile .swiper-pagination-bullet-active {
+  background-color: #ceb0f0 !important;
+}
+.benefits-mobile .swiper-pagination {
+  top: 250px !important;
+}
+.benefits-mobile .swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  width: 11px !important;
+  height: 11px !important;
+  opacity: 1;
+}
+
+.benefits-mobile .swiper-pagination-bullet-active {
+  background-color: #ceb0f0 !important;
+  transform: scale(1.2);
+}
+.benefits-mobile .swiper-pagination {
+  top: 200px !important;
+}
+
+/* Commitment-section */
+.Commitment-section .swiper-wrapper {
+  height: 150px !important;
+}
+.Commitment-section .swiper-pagination {
+  bottom: 0px !important;
+}
+.Commitment-section .swiper-pagination-bullet {
+  background-color: #e9e990 !important;
+  width: 11px !important;
+  height: 11px !important;
+  opacity: 1;
+}
+.Commitment-section .swiper-pagination-bullet-active {
+  background-color: #ceb0f0 !important;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 796px) {
+  .cta-section {
+    background-image: none !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile-device-cta {
+    display: block !important;
+  }
+}
